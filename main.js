@@ -3,7 +3,7 @@ function scale() {
     var height = parseFloat(document.getElementById('tall').value);
     
     if (!weight || !height || height <= 0) {
-        window.alert("Please enter valid weight and height.");
+        window.alert("Please enter real weight and height.");
         return;
     }
 
